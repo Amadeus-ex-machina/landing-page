@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.main-wrapper {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header img {
+    width: 3%;
+    height: 3%;
+    padding-right: 10px;
+}
+
+.header-wrapper {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header-title {
+    font-weight: bold;
+    flex: 1 1 0;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-item a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.main1-wrapper {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.main2-wrapper {
+    background-color: white;
+    height: 500px;
+}
+
+.main3-wrapper {
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+    margin-top: 10px;
+}
+
+.main1 {
+    display: flex;
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+    gap: 5%;
+
+    padding-top: 5%;
+}
+
+.main1 .left-box {
+    flex: 1 1 0;
+    /* background-color: pink; */
+}
+
+.main1 .right-box {
+    flex: 1 1 0;
+}
+
+.right-box img {
+    width: 100%;
+    height: 70%;
+}
+
+.main1-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.main1-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main2 {
+    color: black;
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+    height: 400px;
+}
+
+.main2-flex-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main2-box {
+    height: 200px;
+    width: 200px;
+    /* background-color: #3882F6; */
+    /* border-radius: 10px; */
+}
+
+.subtitle {
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.main2-box img {
+    width: 200px;
+    height: 200px;
+}
+
+.main3 {
+    color: black;
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+    height: 400px;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+}
+
+.main2-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
